@@ -4,36 +4,204 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+
     <link rel="stylesheet" href="aamir.css">
 </head>
 
 <body>
-    <div class="parent">
-        <h1 class="outer-heading">Profile</h1>
-        <p class="tag-line">I'm web designer.</p>
-        <div class="content">
-            <div class="about">
-                <h1>About</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt asperiores repellat rerum
-                    mollitia consequatur illo reiciendis, obcaecati rem dolores voluptatibus porro natus ex iste
-                    exercitationem reprehenderit, animi accusantium itaque?</p>
-                    <h5>Image of <a href="">FREEPIK</a></h5>
+
+    <h1 class="text-center bg-dark text-warning">Sale 60% Off Eid.</h1>
+
+    <div class="container">
+        <nav class="navbar navbar-dark bg-primary navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="day1.html">Products</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Services</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
             </div>
-            <div class="image">
-                <img src="/assets/pro2.png" alt="">
+        </nav>
+    </div>
+
+
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
             </div>
-            <div class="social-icons">
-                <h1>Details</h1>
-                <h2>Name</h2>
-                <p>Aamir</p>
-                <h2>Age</h2>
-                <p>25</p>
-                <h2>Location</h2>
-                <p>Model town, Lahore.</p>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img style="width: 100%; height: 600px;"
+                        src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img style="width: 100%; height: 600px;"
+                        src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img style="width: 100%; height: 600px;"
+                        src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                        class="d-block w-100" alt="...">
+                </div>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
+
+    <div class="container d-flex justify-content-between">
+        <div class="card" style="width: 18rem;">
+            <img style="width: 200px; height: 200px;"
+                src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img style="width: 200px; height: 200px;"
+                src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img style="width: 200px; height: 200px;"
+                src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img style="width: 200px; height: 200px;"
+                src="https://corporate.greenmangaming.com/wp-content/uploads/2014/03/girl-500x500.jpg"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Why we are here?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <div class="maindiv">
+        <form action="">
+            <label for="">Hello</label>
+            <input type="text" required>
+            <label for="">world</label>
+            <input type="text" name="" id="" required>
+            
+                <button class="mybtn" type="button">Submit</button>
+            
+        </form>
+    </div>
+
+
+    <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
     
 </body>
 

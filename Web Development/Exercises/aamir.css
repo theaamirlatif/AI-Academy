@@ -1,71 +1,21 @@
-body {
-    margin: 0;
-    padding: 0;
+.mybtn {
+    width: 100px;
+    align-content: center;
 }
 
-.parent {
+.maindiv {
     width: 100%;
 }
 
-.outer-heading{
-    font-size: 75px;
+form {
+    width: 100%;
+    display: block;
     text-align: center;
 }
-
-.tag-line{
-    text-align: center;
-    font-size: 30px;
+label {
+    width: 60%;
+    text-align: start;
 }
-
-.content {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
-.about {
-    width: 30%;
-}
-
-.about h1{
-    font-size: 60px;
-}
-
-.about p{
-    font-size: 30px;
-}
-
-.image {
-    width: 30%;
-    height: 400px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image img{
-    width: 200px;
-    height: 200px;
-}
-
-.social-icons {
-    width: 30%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-.contact-us {
-    width: 100%;
-    height: 600px;
-    background-color: brown;
+input{
+    width: 60%;
 }
