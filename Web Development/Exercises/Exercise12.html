@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 12</title>
+</head>
+
+<body>
+    <h1>JavaScript Operators</h1>
+    <h2>Examples:</h2>
+    <p>The Assignment Operator = assigns values <br>
+
+        The Addition Operator + adds values <br>
+
+        The Multiplication Operator * multiplies values <br>
+
+        The Comparison Operator > compares values</p>
+    <hr>
+    <h1>JavaScript Operators</h1>
+    <h2>The = Operator</h2>
+    <p id="demo"></p>
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The + Operator</h2>
+    <p id="demo1"></p>
+    <h1>JavaScript Arithmetic</h1>
+    <h2>The * Operator</h2>
+
+    <p id="demo2"></p>
+
+    <script>
+        let x = 5;
+        let y = 2;
+        let z = x + y;
+
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("demo1").innerHTML = z;
+        document.getElementById("demo2").innerHTML = z;
+
+    </script>
+
+    <hr>
+    <h1>JavaScript if, else, and else if</h1>
+    <h2>Conditional Statements</h2>
+    <p>Very often when you write code, you want to perform different actions for different decisions.
+        <br>
+        You can use conditional statements in your code to do this.
+        <hr>
+        In JavaScript we have the following conditional statements:
+    </p>
+
+    <ol>
+        <li>Use if to specify a block of code to be executed, if a specified condition is true</li>
+        <li>Use else to specify a block of code to be executed, if the same condition is false</li>
+        <li>Use else if to specify a new condition to test, if the first condition is false</li>
+        <li>Use switch to specify many alternative blocks of code to be executed</li>
+    </ol>
+
+    <h2>JavaScript if</h2>
+
+    <p>Display "Good day!" if the hour is less than 18:00:</p>
+
+    <p id="demo3">Good Evening!</p>
+
+    <script>
+        if (new Date().getHours() < 18) {
+            document.getElementById("demo3").innerHTML = "Good day!";
+        }
+    </script>
+    <hr>
+    <h2>JavaScript if .. else</h2>
+
+    <p>A time-based greeting:</p>
+
+    <p id="demo4"></p>
+
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+
+        if (hour < 18) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good evening";
+        }
+
+        document.getElementById("demo4").innerHTML = greeting;
+    </script>
+    <hr>
+    <h2>JavaScript if .. else</h2>
+
+    <p>A time-based greeting:</p>
+
+    <p id="demo5"></p>
+
+    <script>
+        const time = new Date().getHours();
+        let greetings;
+        if (time < 10) {
+            greetings = "Good morning";
+        } else if (time < 20) {
+            greetings = "Good day";
+        } else {
+            greetings = "Good evening";
+        }
+        document.getElementById("demo5").innerHTML = greeting;
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 11</title>
+</head>
+
+<body>
+    <h1>JavaScript Variables</h1>
+    <h2>Variables are Containers for Storing Data</h2>
+    <p>JavaScript Variables can be declared in 4 ways:</p>
+    <ol style="font-size: 25px;">
+        <li>Automatically</li>
+        <li>Using <b>var</b></li>
+        <li>Using <b>let</b></li>
+        <li>Using <b>const</b></li>
+    </ol>
+
+    <p>In this example, x, y, and z are undeclared.</p>
+    <p>They are automatically declared when first used.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        x = 5;
+        y = 6;
+        z = x + y;
+        document.getElementById("demo").innerHTML =
+            "The value of z is: " + z;
+    </script>
+
+    <hr>
+
+    <p>From the examples you can guess:
+        <br><br>
+        x stores the value 5 <br>
+        y stores the value 6 <br>
+        z stores the value 11
+    </p>
+    <h1>JavaScript Variables</h1>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo1"></p>
+
+    <script>
+        var x = 5;
+        var y = 6;
+        var z = x + y;
+        document.getElementById("demo1").innerHTML =
+            "The value of z is: " + z;
+    </script>
+
+    <hr>
+    <h1>JavaScript let Variables</h1>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo2"></p>
+
+    <script>
+        let x = 5;
+        let y = 6;
+        let z = x + y;
+        document.getElementById("demo2").innerHTML =
+            "The value of z is: " + z;
+    </script>
+    <hr>
+
+    <h1>JavaScript const Variables</h1>
+
+    <p>In this example, x, y, and z are variables.</p>
+
+    <p id="demo3"></p>
+
+    <script>
+        const x = 5;
+        const y = 6;
+        const z = x + y;
+        document.getElementById("demo3").innerHTML =
+            "The value of z is: " + z;
+    </script>
+
+</body>
+
+</html>

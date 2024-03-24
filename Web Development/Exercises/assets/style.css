@@ -1,0 +1,16 @@
+ ul li {
+     color: red;
+     font-size: 25px;
+ }
+
+ h1 {
+     height: 100px;
+     width: 500px;
+     padding: 100px;
+     margin: 50px;
+ }
+
+ ol li {
+     color: blue;
+     font-size: 25px;
+ }
