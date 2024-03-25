@@ -6,3 +6,51 @@ body{
 .myimg {
     height: 600px;
 }
+
+ol > li::marker {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.footer-img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-col2 {
+
+}
+
+.mycolor {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mylogo {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.mylogo:hover {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mysub:hover {
+    background-color: blueviolet;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
