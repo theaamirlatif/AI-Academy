@@ -1,11 +1,186 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exercise 9</title>
+  <style>
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    .error {
+      color: red;
+      font-size: 12px;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm" onsubmit="return validateForm()">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <span id="usernameError" class="error"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <span id="passwordError" class="error"></span>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+        <span id="confirmPasswordError" class="error"></span>
+      </div>
+      <button type="submit">Register</button>
+    </form>
+  </div>
+
+  <script>
+    function validateForm() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+      var confirmPassword = document.getElementById('confirmPassword').value;
+
+      var usernameError = document.getElementById('usernameError');
+      var passwordError = document.getElementById('passwordError');
+      var confirmPasswordError = document.getElementById('confirmPasswordError');
+
+      var isValid = true;
+
+      // Username validation
+      if (username.trim() === '') {
+        usernameError.innerText = 'Username is required';
+        isValid = false;
+      } else {
+        usernameError.innerText = '';
+      }
+
+      // Password validation
+      if (password.trim() === '') {
+        passwordError.innerText = 'Password is required';
+        isValid = false;
+      } else if (password.length < 6) {
+        passwordError.innerText = 'Password must be at least 6 characters';
+        isValid = false;
+      } else {
+        passwordError.innerText = '';
+      }
+
+      // Confirm password validation
+      if (confirmPassword.trim() === '') {
+        confirmPasswordError.innerText = 'Please confirm your password';
+        isValid = false;
+      } else if (password !== confirmPassword) {
+        confirmPasswordError.innerText = 'Passwords do not match';
+        isValid = false;
+      } else {
+        confirmPasswordError.innerText = '';
+      }
+
+      return isValid;
+    }
+
+    function greet(name = "Aamir") {
+      console.log( "Hello, " + name + "!");
+    }
+
+    greet();
+
+  </script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data Storage</title>
+    <style>
+      h3 {
+           border: 1px solid #2a70a5;
+           text-align: center;
+         padding: 5px;
+          color: #2a70a5;
+      }
+      .text-overflow-ellipses {
+           border: 2px solid #2a70a5;
+          padding: 20px 0;
+           white-space: nowrap;
+           width: 100%;
+          overflow: hidden;
+         text-overflow: ellipsis;
+          font-size: 50px;
+      }
+  </style>
 </head>
 <body>
-  <h1>Bootstrap 5</h1>
+    <form id="dataForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="dataBody">
+          
+        </tbody>
+    </table>
+
+    <h3>Ellipsis</h3>
+   <main class="text-overflow-ellipses">Lorem Ipsum bụ naanị ederede nke ụlọ ọrụ mbipụta na ụdị mbipụta. Lorem Ipsum abụrụla akwụkwọ ederede ọkọlọtọ ụlọ ọrụ kemgbe afọ 1500, mgbe onye nbipute amaghi ama were ụdị ụgbọ mmiri wee chịkọta ya iji mepụta akwụkwọ nlegharị anya. Ọ dịlarị ọ bụghị naanị narị afọ ise, kamakwa ọbịbịa n'ime ụdị elektrọnik, na-agbanwe agbanwebeghị. Emere ya na 1960 site na mwepụta nke akwụkwọ Letraset nwere akụkụ Lorem Ipsum, yana n'oge na-adịbeghị anya site na ngwa mbipụta desktọpụ dị ka Aldus PageMaker gụnyere ụdị Lorem Ipsum.</main>
+
+
+    <script src="Scritp.js"></script>
 </body>
 </html>
