@@ -1,6 +1,6 @@
 **1. Iqra Iftikhar** 
 https://github.com/iqra-746
-(`<br>`)
+<br>
 **2. Huzaifa Dar** 
 https://github.com/waqasahmadcoder
 **3. Waqas Ahmad** 
