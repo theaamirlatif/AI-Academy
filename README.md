@@ -39,7 +39,7 @@ pending
 **3. Store development in Different online markets**
 <br>
 **4. Product hunting techniques and rules**
-<br
+<br>
 **5. Traditional and Digital Marketing**
 <br>
 **6. Custom store development using coding**
