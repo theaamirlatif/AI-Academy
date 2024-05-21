@@ -31,3 +31,16 @@ https://github.com/MuhammadKashif23
 <br>
 **11. Toheed Ijaz** 
 pending
+### E-Commerce Development 
+**1. Know about basics of e-commerce**
+<br>
+**2. Know about e-commerce types and approaches**
+<br>
+**3. Store development in Different online markets**
+<br>
+**4. Product hunting techniques and rules**
+<br
+**5. Traditional and Digital Marketing**
+<br>
+**6. Custom store development using coding**
+<br>
