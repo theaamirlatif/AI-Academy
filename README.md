@@ -6,7 +6,7 @@ https://github.com/iqra-746
 https://github.com/Huzaifa-333
 <br>
 **3. Waqas Ahmad** 
-https://github.com/iqra-746
+https://github.com/waqasahmadcoder
 <br>
 **4. Ehtisham Ul Hassan** 
 https://github.com/Shamirax
