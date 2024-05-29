@@ -3,13 +3,13 @@
 https://github.com/iqra-746
 <br>
 **2. Huzaifa Dar** 
-https://github.com/waqasahmadcoder
+https://github.com/Huzaifa-333
 <br>
 **3. Waqas Ahmad** 
 https://github.com/iqra-746
 <br>
 **4. Ehtisham Ul Hassan** 
-pending
+https://github.com/Shamirax
 <br>
 **5. Ahmed Dar** 
 https://github.com/ahmeddar66
